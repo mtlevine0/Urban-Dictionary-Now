@@ -16,9 +16,11 @@ function genericOnClick(info, tab) {
 	chrome.tabs.create({ url: newURL, index: tab.index+1, selected: true });
 }
 
+// Update the contextMenus title
 function updateContextMenu(id) {
 	// Update contextMenus with highlighted selection
 	chrome.contextMenus.update(id, {"title": "Search Urban Dictionary for '%s'"});
 }
 
+// Updates the contextMenus title each time the menu is opened.
 updateContextMenu(id);
