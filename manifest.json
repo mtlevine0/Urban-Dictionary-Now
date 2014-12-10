@@ -3,7 +3,10 @@
 	"name": "UrbanDictionary Search",
 	"version":"0.1",
 	"description": "Allows a user to easily search Urban Dictionary with one click.",
-	"permissions": ["contextMenus"],
+	"permissions": [
+		"contextMenus",
+		"tabs"
+	],
 	"background": {
 		"scripts": ["main.js"]
 	},
