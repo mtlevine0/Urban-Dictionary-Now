@@ -13,7 +13,7 @@ function genericOnClick(info, tab) {
 	var selection = info.selectionText;
 	var newURL = "http://www.urbandictionary.com/define.php?term=" + selection;
 	// Open the new tab with the search query
-	chrome.tabs.create({ url: newURL, index: tab.index+1, selected: false });
+	chrome.tabs.create({ url: newURL, index: tab.index+1, selected: true });
 }
 
 function updateContextMenu(id) {
