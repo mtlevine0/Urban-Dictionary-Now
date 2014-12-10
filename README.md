@@ -1,11 +1,9 @@
-Chrome extension that searches Urban Dictionary for a highlighted string of text. A user highlights a string of text, right clicks and selects "Search UrbanDictionary for 'foobar'" and a new tab is opened with the appropriate search results.
-
 # Urban Dictionary Chrome Extension
-This Google Chrome extension take advatage of the contextMenus API to make searching Urban Dictionary one click away.
+This Chrome extension uses the contextMenus API to make searching Urban Dictionary as easy as one click.
 
-To use simply highlight a word or phrase you would like to search and right click.  Select the "Search Urban Dictionary for 'foobar'" option in the menu.  A new tab will open with the results of the search.
+To use highlight a word or phrase you would like to search for and right click to open the chrome context menu.  Select the "Search Urban Dictionary for 'foobar'" option in the menu.  A new tab will open with the search results.
 
-## Future additions:
+## Future Additions:
 * An option that allows the user to display the top search result in a modal on the active tab rather than create a completely new tab.
 
 ### License
