@@ -1,14 +1,13 @@
 {
 	"manifest_version": 2,
-	"name": "Context Menus Sample",
+	"name": "UrbanDictionary Search",
 	"version":"0.1",
-	"description": "Shows some of the features of the Context Menus API",
-	"version": "0.6",
+	"description": "Allows a user to easily search Urban Dictionary with one click.",
 	"permissions": ["contextMenus"],
 	"background": {
-		"scripts": ["sample.js"]
+		"scripts": ["main.js"]
 	},
 	"icons": {
-		"128": "icon.png"
+		"128": "icon128.png"
 	}
 }
