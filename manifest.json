@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Urban Dictionary Now",
-	"version":"0.1.1",
+	"version":"0.1.2",
 	
 	"description": "Allows a user to easily search Urban Dictionary with one click.",
 	"icons": {
@@ -14,8 +14,7 @@
 	"minimum_chrome_version": "6",
 	
 	"permissions": [
-		"contextMenus",
-		"tabs"
+		"contextMenus"
 	],
 	"background": {
 		"scripts": ["main.js"],
