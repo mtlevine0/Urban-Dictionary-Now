@@ -1,6 +1,9 @@
 # Urban Dictionary Chrome Extension
 This Chrome extension uses the contextMenus API to make searching Urban Dictionary as easy as one click.
 
+Find it here in the Chrome web store:
+https://chrome.google.com/webstore/detail/urban-dictionary-now/golbngjhpfdobdopaebpdofbmhghfkpm?hl=en
+
 To use highlight a word or phrase you would like to search for and right click to open the chrome context menu.  Select the "Search Urban Dictionary for 'foobar'" option in the menu.  A new tab will open with the search results.
 
 ## Future Additions:
