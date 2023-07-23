@@ -1,23 +1,20 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Urban Dictionary Now",
-	"version":"0.1.2",
-	
+	"version":"0.2.0",
 	"description": "Allows a user to easily search Urban Dictionary with one click.",
 	"icons": {
-		"128": "icon128.png"
+		"48": "icon48.png",
+		"128": "icon96.png"
 	},
-	
 	"author": "Matt Levine",
-	
 	"offline_enabled": false,
 	"minimum_chrome_version": "6",
-	
 	"permissions": [
 		"contextMenus"
 	],
 	"background": {
-		"scripts": ["main.js"],
-		"persistent": true
+		"service_worker": "bundle.js",
+		"type": "module"
 	}
 }

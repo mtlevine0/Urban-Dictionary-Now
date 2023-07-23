@@ -6,11 +6,17 @@ https://chrome.google.com/webstore/detail/urban-dictionary-now/golbngjhpfdobdopa
 
 To use highlight a word or phrase you would like to search for and right click to open the chrome context menu.  Select the "Search Urban Dictionary for 'foobar'" option in the menu.  A new tab will open with the search results.
 
-## Future Additions:
-* An option that allows the user to display the top search result in a modal on the active tab rather than create a completely new tab.
+## Developers Guide
+### Installation
+`npm install`
 
-### License
+### Build
+`npm run build`
 
+### Package
+`npm run package` 
+
+## License
 The MIT License (MIT)
 
 Copyright (c) 2014 Matt Levine
