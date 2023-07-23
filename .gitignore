@@ -1,5 +1,6 @@
 *.pem
 *.crx
+*.zip
 
 node_modules/
 dist/

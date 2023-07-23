@@ -9,7 +9,7 @@
 	},
 	"author": "Matt Levine",
 	"offline_enabled": false,
-	"minimum_chrome_version": "6",
+	"minimum_chrome_version": "88",
 	"permissions": [
 		"contextMenus"
 	],
