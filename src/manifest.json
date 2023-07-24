@@ -4,8 +4,7 @@
 	"version":"0.2.0",
 	"description": "Allows a user to easily search Urban Dictionary with one click.",
 	"icons": {
-		"48": "icon48.png",
-		"128": "icon96.png"
+		"128": "icon128.png"
 	},
 	"author": "Matt Levine",
 	"offline_enabled": false,
@@ -16,5 +15,11 @@
 	"background": {
 		"service_worker": "bundle.js",
 		"type": "module"
-	}
+	},
+	"action": {
+		"default_icon": {        
+		  "128": "icon128.png"
+		},
+		"default_title": "Urban Dictionary Now"
+	  }
 }

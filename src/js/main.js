@@ -54,3 +54,4 @@ function updateContextMenu(id) {
 
 // Updates the contextMenus title each time the menu is opened.
 updateContextMenu(id);
+// chrome.browserAction.setBadgeBackgroundColor({color: [0,255,0,0]});
