@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Urban Dictionary Now",
-	"version":"0.2.1",
+	"version":"0.2.2",
 	"description": "Allows a user to easily search Urban Dictionary with one click.",
 	"icons": {
 		"128": "icon128.png"

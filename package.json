@@ -1,6 +1,6 @@
 {
   "name": "urban-dictionary-now",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "This Chrome extension uses the contextMenus API to make searching Urban Dictionary as easy as one click.",
   "main": "main.js",
   "scripts": {
