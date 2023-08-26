@@ -1,14 +1,14 @@
 {
   "name": "urban-dictionary-now",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This Chrome extension uses the contextMenus API to make searching Urban Dictionary as easy as one click.",
   "main": "main.js",
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--openssl-legacy-provider\" && webpack --mode production",
-    "package": "npm run clean && npm run build && npm run pack && npm run zip",
     "clean": "rm -rf dist/ extension.zip dist.crx dist.pem",
+    "build": "export NODE_OPTIONS=\"--openssl-legacy-provider\" && webpack --mode production",
     "zip": "zip extension.zip -r dist/ -q",
-    "pack": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --pack-extension=./dist"
+    "pack": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --pack-extension=./dist",
+    "package": "npm run clean && npm run build && npm run pack && npm run zip"
   },
   "author": "",
   "license": "ISC",

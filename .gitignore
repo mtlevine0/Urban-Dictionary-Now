@@ -4,3 +4,5 @@
 
 node_modules/
 dist/
+
+firebase_config.js

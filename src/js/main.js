@@ -4,7 +4,7 @@
 // Created: 12/9/14
 //
 
-import { write_database_element } from "./firebase_config.js";
+import { write_database_element } from "./firebase";
 
 // Create selection context
 const title = "Search Urban Dictionary for 'selection'";
